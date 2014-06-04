@@ -1,4 +1,5 @@
 package OO;
+@SuppressWarnings("serial")
 public class Conta implements java.io.Serializable {
 	private String nome;
 	private double saldo;
