@@ -1,4 +1,4 @@
-package jdbc;
+package banco;
 
 import java.sql.SQLException;
 

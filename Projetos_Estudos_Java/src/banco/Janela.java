@@ -1,4 +1,4 @@
-package jdbc;
+package banco;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
