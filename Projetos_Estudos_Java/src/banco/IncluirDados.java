@@ -15,12 +15,12 @@ public class IncluirDados {
 			PreparedStatement stm = conexao.prepareStatement(sql);) {
 				for (int i = 0; i < pessoas.length; i++) {
 					stm.setString(1, pessoas[i]);
-					stm.setString(2, "xxx"+i);
+					stm.setString(2, "xxxx"+i);
 					stm.setInt(3, 22222);
 					
 					stm.addBatch();
 			}
-			
+							
 			stm.executeBatch();
 			
 		} catch (Exception e) {
