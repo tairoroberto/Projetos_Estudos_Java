@@ -14,7 +14,7 @@ import OO.Conta;
 
 public class Arquivo {
 	Path path = Paths
-			.get("/home/tairo/Dropbox/Projetos_java/Projetos_Estudos_Java/src/contas.txt");
+			.get("/home/tairo/workspace/Projetos_Estudos_Java/src/contas.txt");
 	Charset uft8 = StandardCharsets.UTF_8;
 
 	public void armazenarContas(ArrayList<Conta> contas) {
